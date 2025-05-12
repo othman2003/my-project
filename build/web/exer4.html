@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج معلومات المستخدم</title>
+</head>
+<body>
+    <h1>معلومات المستخدم</h1>
+    <form action="UserServlet" method="post">
+        <label for="firstName">first name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">last name :</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="age">age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="gender">six:</label>
+        <input type="radio" id="male" name="gender" value="ذكر" required> mal
+        <input type="radio" id="female" name="gender" value="أنثى"> femel<br><br>
+
+        <label for="languages">best languages:</label><br>
+        <input type="checkbox" name="languages" value="Java"> Java<br>
+        <input type="checkbox" name="languages" value="PHP"> PHP<br>
+        <input type="checkbox" name="languages" value="C++"> C++<br>
+        <input type="checkbox" name="languages" value="Kotlin"> Kotlin<br><br>
+
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
